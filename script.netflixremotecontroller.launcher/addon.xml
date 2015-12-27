@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.netflixremotecontroller.launcher" name="Netflix Remote Controller Launcher" version="1.0.0" provider-name="sytone">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>netflix remote controller launcher</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Launches the Netflix Remote Controllerfrom within Kodi.</summary>
+        <description lang="en">Launches the Netflix Remote Controller from within Kodi - It will close or minimize Kodi, launch the Netflix Remote Controller and when is exited Kodi will restart or maximize, with the option to run programs pre/post launch. It works with Windows 10 only and requires the Metro app for Netflix. It also required the lateest version of Netflix Remote Controller from http://sticky-ux.com/apps/NetflixRemoteController/.</description>
+        <platform>windx</platform>
+        <language>en</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>https://github.com/sytone</forum>
+        <website>https://github.com/sytone</website>
+        <source>https://github.com/sytone</source>
+        <email></email>
+    </extension>
+</addon>

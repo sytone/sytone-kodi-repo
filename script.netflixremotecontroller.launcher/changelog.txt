@@ -1,0 +1,4 @@
+1.0.0
+
+First Version. 
+Thanks to teeedubb as I used the steam launcher for inspiration.

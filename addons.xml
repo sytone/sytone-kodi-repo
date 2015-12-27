@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.sytone" name="Sytone's repo" version="1.0.1" provider-name="sytone">
+        <extension point="xbmc.addon.repository" name="Sytone's addons">
+                <info compressed="false">http://raw.github.com/sytone/sytone-xbmc-repo/master/addons.xml</info>
+                <checksum>http://raw.github.com/sytone/sytone-xbmc-repo/master/addons.xml.md5</checksum>
+                <datadir zip="true">http://raw.github.com/sytone/sytone-xbmc-repo/master</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Sytone's repo</summary>
+                <description>Addons by Sytone.</description>
+                <disclaimer></disclaimer>
+                <platform>all</platform>
+        </extension>
+</addon>
+
+<addon id="script.audio.party.mode.start" name="Music Party Mode" version="0.1.4" provider-name="sytone">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Starts Music Party Mode.</summary>
+    <description lang="en">Starts Music Party Mode, waits for X seconds then switches to full screen visualisation and optionally toggles the fullscreen music info after X seconds. Timeouts can be configured in addon settings, defaults are 5 seconds for each.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <forum>http://forum.xbmc.org/showthread.php?tid=166842</forum>
+    <website>http://forum.xbmc.org/showthread.php?tid=166842</website>
+    <source>https://github.com/sytone</source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="script.netflix.launcher" name="Steam" version="3.1.1" provider-name="sytone">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Launches Steam in Big Picture mode from within Kodi.</summary>
+        <description lang="en">Launches Steam in BPM from within Kodi - It will close or minimize Kodi, launch Steam in Big Picture mode and when Steam is exited Kodi will restart or maximize, with the option to run programs pre/post Steam. It works with Windows, Linux, OSX and Android. Each OS has different settings available.</description>
+        <platform>linux windx osx android</platform>
+        <language>en</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=157499</forum>
+        <website>http://forum.kodi.tv/showthread.php?tid=157499</website>
+        <source>https://github.com/sytone</source>
+        <email></email>
+    </extension>
+</addon>
+
+<addon id="script.audio.triple.j" name="Triple J" version="0.0.3" provider-name="sytone">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Triple J online radio stream.</summary>
+    <description lang="en">Stream Triple J radio online. The addon uses the 96kbps AAC itunes stream. See: http://www.abc.net.au/triplej/media/listen.htm?show=listen#</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=184488</forum>
+    <website>http://forum.xbmc.org/showthread.php?tid=184488</website>
+    <source>https://github.com/sytone</source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="script.audio.fbi.radio" name="FBi Radio" version="0.0.2" provider-name="sytone">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FBi online radio stream.</summary>
+    <description lang="en">Stream FBi radio online. See: http://fbiradio.com/on-air-now/</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=184488</forum>
+    <website>http://forum.xbmc.org/showthread.php?tid=184488</website>
+    <source>https://github.com/sytone</source>
+    <email></email>
+  </extension>
+</addon>
+</addons>
